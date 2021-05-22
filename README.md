@@ -38,7 +38,9 @@ The Deposit transaction should give the user the possibility to credit the accou
 
 The Keypad gives you the user input
 
-The Screen can display a message, including formatted amounts ####Extra:
+The Screen can display a message, including formatted amounts 
+
+####Extra:
 
 An ATM uses a Cash Dispenser to withdraw money
 
