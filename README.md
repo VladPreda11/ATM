@@ -1,20 +1,22 @@
-#Build ATM Console Application
+#Build an ATM Console Application
 
 ####Flow:
 
-The user is required to login by entering an Account number and the PIN for that account.
+- The user is required to login by entering an Account number and the PIN for that account.
 
-If the Account is found then the user can perform 4 actions:
+- If the Account is found then the user can perform 4 actions:
 
-View my balance -> the balance of the account is displayed
-Deposit -> the user is asked to enter an amount, and that amount is added to the balance of the account
-Withdrawal -> the user is asked to select an amount from a list and the money is withdrawn
-Exit -> the user is logged-out and the next user is required to login
-If the Account is not found, then the user is notified and asked to try again
+- View my balance -> the balance of the account is displayed
 
-Write the ATM using Spring: dependency injection spring resources from classpath
+- Deposit -> the user is asked to enter an amount, and that amount is added to the balance of the account
 
-Hash the pin. (SHA256)
+- Withdrawal -> the user is asked to select an amount from a list and the money is withdrawn
+
+- Exit -> the user is logged-out and the next user is required to login
+
+- If the Account is not found, then the user is notified and asked to try again
+
+Write the ATM using Spring: dependency injection spring resources from classpath. Hash the pin. (SHA256)
 
 ####Use Cases:
 
